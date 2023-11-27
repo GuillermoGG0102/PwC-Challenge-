@@ -17,7 +17,7 @@ inteligencia artificial, disponemos de nuevas técnicas más precisas.
  ![Architecture](https://github.com/GuillermoGG0102/PwC-Grupo1/blob/af7fac28ea78dcf0ba11014cd73f6ba76607b1ac/Diagrama%20en%20blanco.png)
  [![Run on Repl.it](https://repl.it/badge/github/sukuzhanay/chat_using_sockets)](https://repl.it/github/sukuzhanay/chat_using_sockets)
 
- ### Team PwC challenge 
+ ### Procesos 
  Procesos para la elaboración del proyecto:
 1. **Exploratory Data Analysis, Preproceso**: Rapid Miner
 2. **Prototipado & Modeling**: Python
@@ -34,12 +34,10 @@ inteligencia artificial, disponemos de nuevas técnicas más precisas.
 
 **FrontEnd**
 1. Github
-2. Data Studio / Looker
 
 **Backend**
 1. Python
 2. Rapid Miner
-3. Big Query
 
 ![Logo of the project](https://github.com/sukuzhanay/tfginder/blob/main/UEM-logo.png)
 
