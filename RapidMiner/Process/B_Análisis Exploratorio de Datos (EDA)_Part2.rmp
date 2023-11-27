@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="10.2.000">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="10.2.000" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="retrieve" compatibility="10.2.000" expanded="true" height="68" name="Load whole dataset" width="90" x="45" y="85">
+        <parameter key="repository_entry" value="../Data/whole_dataset"/>
+      </operator>
+      <operator activated="true" class="blending:select_attributes" compatibility="10.2.000" expanded="true" height="82" name="Select Attributes" width="90" x="179" y="85">
+        <parameter key="type" value="exclude attributes"/>
+        <parameter key="attribute_filter_type" value="one attribute"/>
+        <parameter key="select_attribute" value="isFlaggedFraud"/>
+        <parameter key="select_subset" value=""/>
+        <parameter key="also_apply_to_special_attributes_(id,_label..)" value="true"/>
+      </operator>
+      <operator activated="true" class="blending:set_role" compatibility="10.2.000" expanded="true" height="82" name="Set Role" width="90" x="313" y="85">
+        <list key="set_roles">
+          <parameter key="isFraud" value="label"/>
+        </list>
+      </operator>
+      <operator activated="true" class="sample" compatibility="10.2.000" expanded="true" height="82" name="balanced" width="90" x="447" y="85">
+        <parameter key="sample" value="absolute"/>
+        <parameter key="balance_data" value="true"/>
+        <parameter key="sample_size" value="8213"/>
+        <parameter key="sample_ratio" value="0.1"/>
+        <parameter key="sample_probability" value="0.1"/>
+        <list key="sample_size_per_class">
+          <parameter key="0" value="8213"/>
+          <parameter key="1" value="8213"/>
+        </list>
+        <list key="sample_ratio_per_class"/>
+        <list key="sample_probability_per_class"/>
+        <parameter key="use_local_random_seed" value="true"/>
+        <parameter key="local_random_seed" value="1992"/>
+      </operator>
+      <operator activated="true" class="store" compatibility="10.2.000" expanded="true" height="68" name="bal dataset" width="90" x="581" y="85">
+        <parameter key="repository_entry" value="ue21535220/Data/balanced_dataset"/>
+      </operator>
+      <connect from_op="Load whole dataset" from_port="output" to_op="Select Attributes" to_port="example set input"/>
+      <connect from_op="Select Attributes" from_port="example set output" to_op="Set Role" to_port="example set input"/>
+      <connect from_op="Set Role" from_port="example set output" to_op="balanced" to_port="example set input"/>
+      <connect from_op="balanced" from_port="example set output" to_op="bal dataset" to_port="input"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+    </process>
+  </operator>
+</process>
