@@ -19,9 +19,9 @@ inteligencia artificial, disponemos de nuevas técnicas más precisas.
 
  ### Team PwC challenge 
  Procesos para la elaboración del proyecto:
-1. **Exploratory Data Analysis, Preproceso**: Python
-2. **Prototipado & Modeling**: Rapid Miner
-3. **Modelado & Despliegue**: Big Query
+1. **Exploratory Data Analysis, Preproceso**: Rapid Miner
+2. **Prototipado & Modeling**: Python
+3. **Modelado & Despliegue**: Python
 4. **Data Visualization/Dashboard**: Data Studio(Looker)
    
 ### Miembros del proyecto
