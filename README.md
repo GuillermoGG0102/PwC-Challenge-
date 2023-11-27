@@ -43,24 +43,5 @@ inteligencia artificial, disponemos de nuevas técnicas más precisas.
 
 ![Logo of the project](https://github.com/sukuzhanay/tfginder/blob/main/UEM-logo.png)
 
-# Requisitos e Instalaciones
-
-## Obligatorias
-
-* [Visual Studio Code](https://code.visualstudio.com/) o [WebStorm](https://www.jetbrains.com/es-es/webstorm/download/#section=mac)
-
-* [Postman](https://www.postman.com/downloads/)
-
-* [Git](https://git-scm.com/)
-```
-git config --global user.name "Tu nombre"
-git config --global user.email "Tu correo"
-```
-* [Node](https://nodejs.org/es/)
-
-* [AngularCLI](https://cli.angular.io/)
-
-* [ionic framework](https://ionicframework.com/)
-
 
 ## Extensiones de VSCode
