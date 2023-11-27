@@ -39,7 +39,5 @@ inteligencia artificial, disponemos de nuevas técnicas más precisas.
 1. Python
 2. Rapid Miner
 
-![Logo of the project](https://github.com/sukuzhanay/tfginder/blob/main/UEM-logo.png)
 
 
-## Extensiones de VSCode
