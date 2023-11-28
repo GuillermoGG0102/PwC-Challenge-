@@ -26,9 +26,9 @@ Este repositorio contiene los pasos esenciales que realizamos sobre el dataset d
 ### Miembros del Grupo
 1. **Profesor: Christian Vladimir Sucuzhanay Arevalo** ( Profesor )
 2. Guillermo García González
-3. Miguel Angel Alcon Galán
-4. Sebastian Marquez Cochesa
-5. Sebastian Higueras Salas
+3. Miguel Ángel Alcón Galán
+4. Sebastián Márquez Cochesa
+5. Sebastián Higueras Salas
 ### Estructura y tecnologías usadas en _**PwC Challenge**_
 
 1. RapidMiner
