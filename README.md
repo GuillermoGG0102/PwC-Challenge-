@@ -4,7 +4,7 @@
 # PwC Challenge - Credit Card Fraud Detection #
  ## Grupo 1 Business Analytics
 
-**Introducción**
+**Introducción**:
 La detección de fraude en transacciones con tarjetas de crédito es un desafío constante para las instituciones financieras. El uso de técnicas de machine learning puede ser fundamental para identificar patrones y anomalías en los datos que podrían indicar actividades fraudulentas.
 
 En este repositorio encontraran las diferentes carpetas en las que se han alojado los archivos correspondientes a la consecución del proyecto. Un proyecto que ha girado en torno a la elaboración de un modelo de aprendizaje supervisado a través de Python, con el fin de detectar de la forma más rigurosa y fiable, posibles casos de fraude. 
