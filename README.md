@@ -7,7 +7,7 @@
 **Introducción**
 La detección de fraude en transacciones con tarjetas de crédito es un desafío constante para las instituciones financieras. El uso de técnicas de machine learning puede ser fundamental para identificar patrones y anomalías en los datos que podrían indicar actividades fraudulentas.
 
-En este repositorio encontraran las diferentes carpetas en las que se han alojado los archivos correspondientes a la consecución del proyecto. Un proyecto que ha girado en torno a la elaboración de un modelo de aprendizaje supervisado realizado en Python, con el fin de detectar de la forma más rigurosa y fiable, los posibles casos de fraude que puedan hallarse en una base de datos. 
+En este repositorio encontraran las diferentes carpetas en las que se han alojado los archivos correspondientes a la consecución del proyecto. Un proyecto que ha girado en torno a la elaboración de un modelo de aprendizaje supervisado a través de Python, con el fin de detectar de la forma más rigurosa y fiable, posibles casos de fraude. 
 
 En este repositorio encontrarán: 
  1. Carpeta Code: en esta carpeta encontrarán disponible el código y las correspondientes explicaciones de todos los pasos llevados a cabo.
