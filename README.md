@@ -9,12 +9,6 @@ La detección de fraude en transacciones con tarjetas de crédito es un desafío
 
 En este repositorio encontraran las diferentes carpetas en las que se han alojado los archivos correspondientes a la consecución del proyecto. Un proyecto que ha girado en torno a la elaboración de un modelo de aprendizaje supervisado a través de Python, con el fin de detectar de la forma más rigurosa y fiable, posibles casos de fraude. 
 
-En este repositorio encontrarán: 
- 1. Carpeta Code: en esta carpeta encontrarán disponible el código y las correspondientes explicaciones de todos los pasos llevados a cabo.
- 2. Carpeta Documents: donde encontrarán el documento pdf que explica en mayor profundidad todos los insights del proyecto.
- 3. Carpeta Presentation: en dicha carpeta se pone a su disposición la presentación usada para la exposición oral del proyecto.
- 4. Carpeta RapidMiner: todo el análisis de los datos se llevó a cabo con RapidMiner, en esta carpeta encontraran toda la información al respecto. 
-
 **Descripcion de los carpetas**
 ```shell
 RapidMiner .-prototipado en RapidMiner
@@ -22,8 +16,12 @@ Presentation.- diapositivas de la resolución del reto
 Code (Python).- código Python codificando el problema prototipado en RapidMiner, pero solo con el mejor modelo.
 Documents ( Word o Pdf ).-documento Word PDF con el informe a PwC
 ```
-
-**Objetivo**
+ 1. Carpeta Code: en esta carpeta encontrarán disponible el código y las correspondientes explicaciones de todos los pasos llevados a cabo.
+ 2. Carpeta Documents: donde encontrarán el documento pdf que explica en mayor profundidad todos los insights del proyecto.
+ 3. Carpeta Presentation: en dicha carpeta se pone a su disposición la presentación usada para la exposición oral del proyecto.
+ 4. Carpeta RapidMiner: todo el análisis de los datos se llevó a cabo con RapidMiner, en esta carpeta encontraran toda la información al respecto.
+    
+## Objetivo
 Este repositorio contiene los pasos esenciales que realizamos sobre el dataset de PwC para predecir el fraude en transacciones con tarjetas de crédito utilizando técnicas de machine learning con diferentes herramientas
 
  ## Architecture ##
