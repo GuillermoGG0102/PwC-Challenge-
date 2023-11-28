@@ -9,7 +9,7 @@ La detección de fraude en transacciones con tarjetas de crédito es un desafío
 
 En este repositorio encontraran las diferentes carpetas en las que se han alojado los archivos correspondientes a la consecución del proyecto. Un proyecto que ha girado en torno a la elaboración de un modelo de aprendizaje supervisado a través de Python, con el fin de detectar de la forma más rigurosa y fiable, posibles casos de fraude. 
 
-**Descripcion de los carpetas**
+**Descripcion de las carpetas:**
 ```shell
 RapidMiner .-prototipado en RapidMiner
 Presentation.- diapositivas de la resolución del reto
